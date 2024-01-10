@@ -1,0 +1,5 @@
+@mixin custom-button($bottone1) {
+  padding: 0.5em 1em;
+  border: 2px solid black;
+  color: $bottone1;
+}

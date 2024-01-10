@@ -1,0 +1,43 @@
+header {
+  background-color: #640fc5;
+
+  nav {
+    display: flex;
+    img {
+      width: 90px;
+    }
+    ul {
+      display: flex;
+      li {
+        list-style-type: none;
+        padding-right: 1em;
+      }
+    }
+  }
+  div {
+    display: flex;
+    justify-content: center;
+    p {
+      font-size: 30px;
+      display: flex;
+      align-items: center;
+      width: 350px;
+    }
+  }
+  aside {
+    display: flex;
+    justify-content: center;
+    button {
+      display: flex;
+      padding: 0.5em 2em;
+      margin: 1em;
+    }
+  }
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  gap: 0 2em;
+  margin: 2em 0;
+}
